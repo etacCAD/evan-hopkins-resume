@@ -79,12 +79,12 @@ Your primary goal is to understand what the visitor is looking for and determine
 
 ### Current Roles
 - Fractional CRO at Elastique Athletics — PE-backed luxury compression athletics brand. Leading revenue strategy, CRO, landing page optimization, sentiment analysis tools, and GTM for a 9-figure GMV ecommerce operation with an 8-person team.
-- Full-Time CRO at GotPhoto.com (2024–2025)
+- CRO at GotPhoto.com (2024–2025)
 - Advisor to Elastique, Homebaked Nearby, WastePlace
 - Fractional CRO / Consulting via Tacanni (since 2017) — Clients include BetterEngineer and others.
 
 ### GotPhoto.com (2024–2025)
-Full-time CRO role. This is a current full-time position, not advisory.
+CRO. Rebuilt the GTM motion that delivered strong growth in 2026 across Customer Success and New Business in the US. Led the DACH team and worked directly at investor and board level.
 
 ### CharterUP (2023)
 VP Supply — Operations, Logistics, CX & Partnerships. Built customer support ops model leveraging L&D + WFM best practices. Drove 2x efficiency gains with zero product changes. Built product prioritization framework adopted company-wide. Note: this was a single year.
