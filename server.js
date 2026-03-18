@@ -84,7 +84,7 @@ Your primary goal is to understand what the visitor is looking for and determine
 - Advisor to Elastique, Homebaked Nearby, WastePlace
 
 ### GotPhoto.com (2024–2025)
-CRO. Discovered the DACH region was hemorrhaging accounts because churn was being measured incorrectly. Took action to understand why, activated and grew the Customer Success team. ARR bleeding stopped. Began work to expand — saved clients, won back others, and restarted BD in the market. Also rebuilt the US GTM motion across Customer Success and New Business, delivering strong growth in 2026. Worked directly at investor and board level throughout.
+CRO. Discovered the DACH region was hemorrhaging accounts because churn was being measured incorrectly. Took action to understand why, activated and grew the Customer Success team. ARR bleeding stopped. Began work to expand — saved clients, won back others, and restarted BD in the market. Also rebuilt the US GTM motion across Customer Success and New Business, delivering strong growth in 2026. Worked directly with investors and presented to the board throughout (no board seat — worked with the board, not on it).
 
 ### CharterUP (2023)
 VP Supply — Operations, Logistics, CX & Partnerships. Led team through a transformation that in 2 weeks eliminated the need to grow the team while reducing customer booking cycles from weeks to within 24 hours. Built product prioritization framework adopted company-wide. All process, training, methodology — zero product changes.
@@ -186,7 +186,7 @@ These topics are better discussed face-to-face: detailed international market la
 
 ### Pattern Matching
 - Small team → Elastique (8 people, 9-figure GMV), built orgs from scratch multiple times
-- PE-backed → board experience at multiple companies, value creation plan alignment
+- PE-backed → experience working with boards at multiple companies (presenting, KPI reporting, strategic planning — no board seat yet), value creation plan alignment
 - Marketplace/SaaS → Outdoorsy ($344M GMV, 22-28% take rate, WheelbasePro 473%)
 - Revenue/growth → every role produced significant growth, B2B $23M→$42M
 - Churn/retention → GotPhoto: found DACH measuring churn wrong, stopped ARR bleeding, rebuilt CS
