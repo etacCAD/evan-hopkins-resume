@@ -218,6 +218,15 @@ function addBotMessage(text) {
     saveSession();
 }
 
+function formatMessage(text) {
+    // Sanitize to prevent XSS
+    const safe = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    // Split on double newlines into paragraphs, single newlines into <br>
+    return safe.split(/\n\n+/).map(para =>
+        `<p>${para.replace(/\n/g, '<br>')}</p>`
+    ).join('');
+}
+
 function renderMessage(msg) {
     const div = document.createElement('div');
     div.className = `evanai-msg evanai-msg--${msg.role === 'user' ? 'user' : 'bot'}`;
@@ -231,7 +240,7 @@ function renderMessage(msg) {
 
     const bubble = document.createElement('div');
     bubble.className = 'evanai-msg-bubble';
-    bubble.textContent = msg.content;
+    bubble.innerHTML = formatMessage(msg.content);
     div.appendChild(bubble);
 
     els.messages.appendChild(div);
