@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evan Hopkins — Revenue Architect</title>
+    <meta name="description" content="Results-driven CRO/CEO with 20+ years scaling businesses from $18M to $258M+. Proven 9-figure GMV operator with lean teams.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Film Grain Overlay -->
+    <div class="grain-overlay" aria-hidden="true"></div>
+
+    <!-- Constellation Canvas -->
+    <canvas id="constellation-bg"></canvas>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">EH</a>
+            <div class="nav-links">
+                <a href="#metrics" class="nav-link" data-section="metrics">Impact</a>
+                <a href="#philosophy" class="nav-link" data-section="philosophy">Philosophy</a>
+                <a href="#timeline" class="nav-link" data-section="timeline">Career</a>
+                <a href="#capabilities" class="nav-link" data-section="capabilities">Capabilities</a>
+                <a href="#contact" class="nav-link" data-section="contact">Connect</a>
+            </div>
+            <div class="nav-hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#metrics" class="mobile-link">Impact</a>
+        <a href="#philosophy" class="mobile-link">Philosophy</a>
+        <a href="#timeline" class="mobile-link">Career</a>
+        <a href="#capabilities" class="mobile-link">Capabilities</a>
+        <a href="#contact" class="mobile-link">Connect</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-image" aria-hidden="true">
+            <img src="hero-texture.png" alt="" loading="eager">
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge reveal">Revenue Architect · Operator · Builder</div>
+            <h1 class="hero-name reveal reveal-delay-1">
+                <span class="hero-first">Evan</span>
+                <span class="hero-last">Hopkins</span>
+            </h1>
+            <p class="hero-tagline reveal reveal-delay-2">
+                I take PE-backed businesses from <span class="text-gradient">acquired potential</span> to <span class="text-gradient">market dominance</span> — with lean teams and measurable outcomes.
+            </p>
+            <div class="hero-stats reveal reveal-delay-3">
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-target="344" data-prefix="$" data-suffix="M+">$0</span>
+                    <span class="hero-stat-label">GMV Managed</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-target="20" data-suffix="+">0</span>
+                    <span class="hero-stat-label">Years Leading</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-target="6" data-suffix="x">0</span>
+                    <span class="hero-stat-label">Revenue Growth</span>
+                </div>
+            </div>
+            <div class="hero-cta reveal reveal-delay-4">
+                <a href="#metrics" class="btn btn-primary">See the Numbers</a>
+                <a href="#contact" class="btn btn-ghost">Let's Talk</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Metrics Section -->
+    <section class="metrics" id="metrics">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label reveal">Measurable Impact</span>
+                <h2 class="section-title reveal reveal-delay-1">The numbers tell the story.</h2>
+                <p class="section-subtitle reveal reveal-delay-2">Every role. Every company. Revenue up, costs down, teams performing.</p>
+            </div>
+
+            <div class="metrics-grid">
+                <div class="metric-card metric-card--hero reveal">
+                    <div class="metric-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 20h20M5 20V10l4-6 4 6v10M17 20V4l-4 6"/><circle cx="9" cy="7" r="1"/></svg>
+                    </div>
+                    <div class="metric-value" data-target="344.6" data-prefix="$" data-suffix="M" data-decimals="1">$0</div>
+                    <div class="metric-label">Peak GMV (Outdoorsy)</div>
+                    <div class="metric-context">Grew from $101M in 4 years</div>
+                    <div class="metric-bar"><div class="metric-bar-fill" data-width="95"></div></div>
+                </div>
+
+                <div class="metric-card reveal">
+                    <div class="metric-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+                    </div>
+                    <div class="metric-value" data-target="258" data-prefix="$" data-suffix="M">$0</div>
+                    <div class="metric-label">Org Revenue (1-800-GOT-JUNK?)</div>
+                    <div class="metric-context">65%+ from my teams. Grew from $98M.</div>
+                    <div class="metric-bar"><div class="metric-bar-fill" data-width="88"></div></div>
+                </div>
+
+                <div class="metric-card reveal">
+                    <div class="metric-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+                    </div>
+                    <div class="metric-value" data-target="473" data-suffix="%">0</div>
+                    <div class="metric-label">SaaS Revenue Growth</div>
+                    <div class="metric-context">WheelbasePro: $1.8M → $10.3M</div>
+                    <div class="metric-bar"><div class="metric-bar-fill" data-width="100"></div></div>
+                </div>
+
+                <div class="metric-card reveal">
+                    <div class="metric-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4-4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+                    </div>
+                    <div class="metric-value" data-target="200" data-suffix="+">0</div>
+                    <div class="metric-label">Team Members Led</div>
+                    <div class="metric-context">82% engagement score. 50+ promoted.</div>
+                    <div class="metric-bar"><div class="metric-bar-fill" data-width="82"></div></div>
+                </div>
+
+                <div class="metric-card reveal">
+                    <div class="metric-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <div class="metric-value" data-target="10" data-prefix="$" data-suffix="M+">$0</div>
+                    <div class="metric-label">Fraud Prevention</div>
+                    <div class="metric-context">Trust & Safety practices, year 1</div>
+                    <div class="metric-bar"><div class="metric-bar-fill" data-width="70"></div></div>
+                </div>
+
+                <div class="metric-card reveal">
+                    <div class="metric-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                    </div>
+                    <div class="metric-value" data-target="2" data-suffix="x">0</div>
+                    <div class="metric-label">Ops Efficiency Gain</div>
+                    <div class="metric-context">No product changes required</div>
+                    <div class="metric-bar"><div class="metric-bar-fill" data-width="65"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="philosophy" id="philosophy">
+        <div class="section-bg-image" aria-hidden="true">
+            <img src="strategy-overhead.png" alt="" loading="lazy">
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label reveal">Operating Principles</span>
+                <h2 class="section-title reveal reveal-delay-1">How I build.</h2>
+            </div>
+            <div class="philosophy-grid">
+                <div class="philosophy-card reveal">
+                    <div class="philosophy-number">01</div>
+                    <h3>Situational Leadership</h3>
+                    <p>No single playbook fits every team or moment. I adapt. The best leaders meet people where they are and elevate from there.</p>
+                </div>
+                <div class="philosophy-card reveal">
+                    <div class="philosophy-number">02</div>
+                    <h3>Radical Candor</h3>
+                    <p>Honest conversations drive performance. I care personally and challenge directly — it's the only way to build trust that survives adversity.</p>
+                </div>
+                <div class="philosophy-card reveal">
+                    <div class="philosophy-number">03</div>
+                    <h3>Customer-Focused Selling</h3>
+                    <p>Revenue is the outcome of delivering genuine value. I build GTM motions around the customer's problem, not our pitch deck.</p>
+                </div>
+                <div class="philosophy-card reveal">
+                    <div class="philosophy-number">04</div>
+                    <h3>Lean, High-Leverage Teams</h3>
+                    <p>I've run 200-person orgs and 8-person startups. The principle is the same: hire for ownership, systematize for scale, never bloat.</p>
+                </div>
+                <div class="philosophy-card reveal">
+                    <div class="philosophy-number">05</div>
+                    <h3>Data-Informed, Not Data-Paralyzed</h3>
+                    <p>Metrics show the path, but judgment makes the call. I build dashboards and close deals — operators need both.</p>
+                </div>
+                <div class="philosophy-card reveal">
+                    <div class="philosophy-number">06</div>
+                    <h3>Builder Mentality</h3>
+                    <p>From iOS apps to Salesforce implementations to AI-powered CRO tools — I don't just run teams, I build the infrastructure they need to win.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline" id="timeline">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label reveal">Career Arc</span>
+                <h2 class="section-title reveal reveal-delay-1">Built for this moment.</h2>
+                <p class="section-subtitle reveal reveal-delay-2">20+ years of progressive leadership across SaaS, marketplaces, franchises, and DTC.</p>
+            </div>
+
+            <div class="timeline-track">
+                <!-- Current: Elastique Athletics -->
+                <div class="timeline-item timeline-item--active reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <span class="timeline-date">Sep 2025 — Present</span>
+                            <span class="timeline-badge">Current</span>
+                        </div>
+                        <h3 class="timeline-role">Fractional CRO</h3>
+                        <h4 class="timeline-company">Elastique Athletics</h4>
+                        <p class="timeline-description">PE-backed luxury compression athletics brand. Leading revenue strategy, CRO, landing page optimization, sentiment analysis tools, and GTM for a 9-figure GMV ecommerce operation with an 8-person team.</p>
+                        <div class="timeline-tags">
+                            <span>DTC</span><span>eCommerce</span><span>CRO</span><span>PE Portfolio</span><span>Lean Ops</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CharterUP -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <span class="timeline-date">Feb 2023 — Sep 2025</span>
+                        </div>
+                        <h3 class="timeline-role">VP Supply — Operations, Logistics, CX & Partnerships</h3>
+                        <h4 class="timeline-company">CharterUP</h4>
+                        <p class="timeline-description">Built customer support ops model leveraging L&D + WFM best practices to consistently hit CX goals for the first time. Drove 2x efficiency gains with zero product changes. Built product prioritization framework adopted company-wide.</p>
+                        <div class="timeline-tags">
+                            <span>Operations</span><span>Logistics</span><span>CX</span><span>Process Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Outdoorsy -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <span class="timeline-date">Feb 2018 — Jan 2023</span>
+                            <span class="timeline-badge timeline-badge--highlight">Flagship</span>
+                        </div>
+                        <h3 class="timeline-role">VP Global Sales & Customer Operations</h3>
+                        <h4 class="timeline-company">Outdoorsy</h4>
+                        <p class="timeline-description">Scaled the RV marketplace from $18M to $88M revenue and $101M to $344M GMV. Grew SaaS product (WheelbasePro) from $1.8M to $10.3M. Owned GTM, sales, support, success teams across 5 countries. Built and ran a 14,000+ customer community. Led team from 4 to 170+ during the pandemic.</p>
+                        <div class="timeline-highlights">
+                            <div class="timeline-highlight">
+                                <span class="highlight-value">$344M</span>
+                                <span class="highlight-label">GMV</span>
+                            </div>
+                            <div class="timeline-highlight">
+                                <span class="highlight-value">5x</span>
+                                <span class="highlight-label">Rev Growth</span>
+                            </div>
+                            <div class="timeline-highlight">
+                                <span class="highlight-value">5</span>
+                                <span class="highlight-label">Countries</span>
+                            </div>
+                            <div class="timeline-highlight">
+                                <span class="highlight-value">12K+</span>
+                                <span class="highlight-label">Listings</span>
+                            </div>
+                        </div>
+                        <div class="timeline-tags">
+                            <span>Marketplace</span><span>SaaS</span><span>Global GTM</span><span>Board Updates</span><span>Trust & Safety</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1-800-GOT-JUNK? -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <span class="timeline-date">Apr 2012 — Feb 2018</span>
+                        </div>
+                        <h3 class="timeline-role">VP Commercial Sales & Contact Centers</h3>
+                        <h4 class="timeline-company">1-800-GOT-JUNK? / O2E Brands</h4>
+                        <p class="timeline-description">Member of the C-suite reporting to COO. Responsible for 65%+ of revenue in a $258M franchise organization (grew from $98M). Grew B2B from $23M to $42M. Led 200+ people, achieved 82% engagement, promoted 50+ team members. Company Leadership Award recipient.</p>
+                        <div class="timeline-tags">
+                            <span>Franchise</span><span>B2B Sales</span><span>Contact Center</span><span>SFDC</span><span>P&L</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WestJet -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <span class="timeline-date">Oct 2009 — Apr 2012</span>
+                        </div>
+                        <h3 class="timeline-role">Manager — Workforce Planning, Sales & Help Desk</h3>
+                        <h4 class="timeline-company">WestJet</h4>
+                        <p class="timeline-description">Managed $40M budget, 800-member capacity planning, and 20 analysts forecasting for 3,000+ team members across $150M+ in annual salary. Launched technology implementations (Virtual Hold, IVR, WFM tools).</p>
+                        <div class="timeline-tags">
+                            <span>Airline</span><span>WFM</span><span>Budgeting</span><span>Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TELUS -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <span class="timeline-date">May 2001 — Oct 2009</span>
+                        </div>
+                        <h3 class="timeline-role">Sales → Operations → Leadership (Progressive)</h3>
+                        <h4 class="timeline-company">TELUS</h4>
+                        <p class="timeline-description">Started as inside sales agent, promoted consistently into troubled business units that needed turnaround leadership. Progressed through outbound sales, business analysis, field ops, sales training, team leadership, and contact center operations management.</p>
+                        <div class="timeline-tags">
+                            <span>Telecom</span><span>Turnaround</span><span>Sales Training</span><span>Operations</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Advisory -->
+                <div class="timeline-item timeline-item--advisory reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <span class="timeline-date">Ongoing</span>
+                            <span class="timeline-badge">Advisory</span>
+                        </div>
+                        <h3 class="timeline-role">Strategic Advisor & Fractional Leader</h3>
+                        <h4 class="timeline-company">Tacanni / Multiple Companies</h4>
+                        <p class="timeline-description">Fractional CRO work for BetterEngineer, GotPhoto.com. Strategic advisor to WastePlace and Homebaked Nearby. Coaching and consulting through Tacanni since 2017.</p>
+                        <div class="timeline-tags">
+                            <span>Fractional</span><span>Advisory</span><span>Coaching</span><span>Strategy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section class="capabilities" id="capabilities">
+        <div class="section-bg-image" aria-hidden="true">
+            <img src="boardroom-dusk.png" alt="" loading="lazy">
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label reveal">What I Bring</span>
+                <h2 class="section-title reveal reveal-delay-1">Built for PE portfolio companies.</h2>
+                <p class="section-subtitle reveal reveal-delay-2">The playbook for taking a portfolio company from acquisition to exit-ready.</p>
+            </div>
+
+            <div class="capabilities-grid">
+                <div class="capability-card reveal">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h3>Go-to-Market Strategy</h3>
+                    <p>Full GTM ownership — product positioning, channel strategy, pricing architecture. Launched across DACH, EU, AU/NZ, UK, and Canada.</p>
+                </div>
+                <div class="capability-card reveal">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4-4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+                    </div>
+                    <h3>Team Building & Culture</h3>
+                    <p>From 4-person teams to 200+. 82% engagement scores. 50+ promotions. Top 50 employer recognition. I build orgs people don't leave.</p>
+                </div>
+                <div class="capability-card reveal">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20V10M18 20V4M6 20v-4"/></svg>
+                    </div>
+                    <h3>Revenue Operations</h3>
+                    <p>CRM implementation (Salesforce, HubSpot), sales methodology design, pipeline optimization, contact center transformation, full-funnel analytics.</p>
+                </div>
+                <div class="capability-card reveal">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg>
+                    </div>
+                    <h3>Global Expansion</h3>
+                    <p>Launched and ran GTM in 5 countries across 8 cities. Market entry strategy, localization, international team building, multi-currency ops.</p>
+                </div>
+                <div class="capability-card reveal">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+                    </div>
+                    <h3>Board & Investor Relations</h3>
+                    <p>Direct board update responsibility. Investor narrative crafting. KPI reporting. Strategic planning aligned to acquisition thesis and value creation plans.</p>
+                </div>
+                <div class="capability-card reveal">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <h3>Technical Builder</h3>
+                    <p>Not just a deck jockey — I build AI-powered CRO tools, deploy cloud functions, ship iOS apps, and architect data pipelines. Hands-on operator.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label reveal">What They Say</span>
+                <h2 class="section-title reveal reveal-delay-1">33 LinkedIn recommendations.</h2>
+            </div>
+            <div class="testimonial-cards">
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-quote">"Evan leads by example and inspires those around him. He is the epitome of Culture Champion. One of the few leaders I've met that would perfectly exemplify a leader as Simon Sinek would describe it."</div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">WK</div>
+                        <div>
+                            <div class="testimonial-name">William Kennedy</div>
+                            <div class="testimonial-title">Colleague at WestJet</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-quote">"Evan is incredibly down-to-earth and heart-centered in how he supports you. He has always overdelivered — with GREAT ideas and results. I'd recommend him to anyone from a small 3-person business to a large corporation."</div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">FM</div>
+                        <div>
+                            <div class="testimonial-name">Flora McCormick, LCPC</div>
+                            <div class="testimonial-title">Coaching Client</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Awards -->
+    <section class="credentials" id="credentials">
+        <div class="container">
+            <div class="credentials-grid">
+                <div class="credential-group reveal">
+                    <h3 class="credential-heading">Certifications</h3>
+                    <div class="credential-item">
+                        <span class="credential-icon">🎯</span>
+                        <div>
+                            <div class="credential-name">Talent Optimization Consultant</div>
+                            <div class="credential-org">The Predictive Index</div>
+                        </div>
+                    </div>
+                    <div class="credential-item">
+                        <span class="credential-icon">📊</span>
+                        <div>
+                            <div class="credential-name">Predictive Index Analyst</div>
+                            <div class="credential-org">The Predictive Index</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="credential-group reveal">
+                    <h3 class="credential-heading">Awards</h3>
+                    <div class="credential-item">
+                        <span class="credential-icon">🏆</span>
+                        <div>
+                            <div class="credential-name">Company Leadership Award</div>
+                            <div class="credential-org">1-800-GOT-JUNK? · Presented by COO & CEO</div>
+                        </div>
+                    </div>
+                    <div class="credential-item">
+                        <span class="credential-icon">🏐</span>
+                        <div>
+                            <div class="credential-name">Provincial Volleyball Champions Coach</div>
+                            <div class="credential-org">2010 & 2011 · Centennial High School</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="credential-group reveal">
+                    <h3 class="credential-heading">Publications</h3>
+                    <div class="credential-item">
+                        <span class="credential-icon">🎙</span>
+                        <div>
+                            <div class="credential-name">Franchise Sales & Trust</div>
+                            <div class="credential-org">Negotiations Ninja Podcast</div>
+                        </div>
+                    </div>
+                    <div class="credential-item">
+                        <span class="credential-icon">✍️</span>
+                        <div>
+                            <div class="credential-name">Substack — Leadership & Growth</div>
+                            <div class="credential-org">evanhop.substack.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-inner">
+                <div class="section-header">
+                    <span class="section-label reveal">Let's Connect</span>
+                    <h2 class="section-title reveal reveal-delay-1">Ready to build something <span class="text-gradient">exceptional</span>?</h2>
+                    <p class="section-subtitle reveal reveal-delay-2">I'm looking for my next full-time CRO/CEO role in a PE-backed company where I can drive the value creation plan from day one.</p>
+                </div>
+                <div class="contact-methods reveal reveal-delay-3">
+                    <a href="tel:512-466-3938" class="contact-card">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        <span class="contact-label">Call</span>
+                        <span class="contact-value">512-466-3938</span>
+                    </a>
+                    <a href="mailto:evan@tacanni.com" class="contact-card">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">evan@tacanni.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/evancbhopkins/" target="_blank" class="contact-card">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">evancbhopkins</span>
+                    </a>
+                    <a href="https://www.tacanni.com/" target="_blank" class="contact-card">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg>
+                        <span class="contact-label">Website</span>
+                        <span class="contact-value">tacanni.com</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Evan Hopkins · Austin, TX · Built with intention.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- EvanAI Chat Widget (powered by Claude via proxy) -->
+    <script type="module">
+        import { initEvanAI } from './chat.js';
+        document.addEventListener('DOMContentLoaded', initEvanAI);
+    </script>
+</body>
+</html>
